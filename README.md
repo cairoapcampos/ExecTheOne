@@ -16,7 +16,7 @@ sudo apt-get install oracle-java8-installer
 
 4- Entrar no diretório do usuário:
 
-cd /home/usuario
+cd /home/$HOME
 
 5- Baixar do repositório do Git o The One:
 
@@ -40,7 +40,7 @@ git clone https://github.com/cairoapcampos/ExecTheOne.git
 
 10- Mover conteúdo para a pasta padrão e deletar pasta vazia:
 
-sudo mv ExecTheOne/* /home/usuario/the-one
+sudo mv ExecTheOne/* /home/$HOME/the-one
 
 sudo rm -R ExecTheOne
 
