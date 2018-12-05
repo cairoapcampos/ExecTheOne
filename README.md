@@ -2,7 +2,7 @@
 
 Instalação feita no GNU/Linux Ubuntu 18.04
 
-1- Remover o OpenJDK instalado:
+1- Remover o OpenJDK caso já esteja instalado:
 
 sudo apt-get purge openjdk*
 
