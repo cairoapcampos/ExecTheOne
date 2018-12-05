@@ -6,6 +6,7 @@
 Scenario.name = Report_5_40_50M
 Scenario.simulateConnections = true
 Scenario.updateInterval = 0.1
+
 # 43200s == 12h e 21600 == 6h
 Scenario.endTime = 43200
 
