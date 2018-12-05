@@ -2,48 +2,52 @@
 
 Instalação feita no GNU/Linux Ubuntu 18.04
 
-1 - Adicione o repositório do Java 8:
+1- Remover o OpenJDK instalado:
+
+sudo apt-get purge openjdk*
+
+2- Adicione o repositório do Java 8:
 
 sudo add-apt-repository ppa:webupd8team/java
 
-2- Atualizar lista de pacotes disponiveis:
+3- Atualizar lista de pacotes disponiveis:
 
 sudo apt-get update
 
-3- Instalar o Java 8:
+4- Instalar o Java 8:
 
 sudo apt-get install oracle-java8-installer
 
-4- Entrar no diretório do usuário:
+5- Entrar no diretório do usuário:
 
 cd $HOME
 
-5- Baixar do repositório do Git o The One:
+6- Baixar do repositório do Git o The One:
 
 git clone https://github.com/akeranen/the-one.git
 
-6- Entrar no diretório do The One:
+7- Entrar no diretório do The One:
 
 cd the-one
 
-7- Compilar o The One:
+8- Compilar o The One:
 
 sudo ./compile.sh
 
-8- Apagar arquivo padrão de configurações:
+9- Apagar arquivo padrão de configurações:
 
 sudo rm default_settings.txt
 
-9- Dentro do mesmo direto baixar repositório com configurações prontas:
+10- Dentro do mesmo direto baixar repositório com configurações prontas:
 
 git clone https://github.com/cairoapcampos/ExecTheOne.git
 
-10- Mover conteúdo para a pasta padrão e deletar pasta vazia:
+11- Mover conteúdo para a pasta padrão e deletar pasta vazia:
 
 sudo mv ExecTheOne/* $HOME/the-one
 
 sudo rm -R ExecTheOne
 
-11- Executar o script
+12- Executar o script
 
 sudo ./ExecTheOne.sh
