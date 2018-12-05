@@ -1,3 +1,4 @@
+::::::::::::::: Instruções ::::::::::::::::::
 
 1 - Adicione o repositório do Java 8:
 
