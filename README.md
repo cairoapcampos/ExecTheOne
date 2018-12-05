@@ -1,45 +1,45 @@
 
-Adicione o repositório do Java 8:
+1 - Adicione o repositório do Java 8:
 
 sudo add-apt-repository ppa:webupd8team/java
 
-Atualizar lista de pacotes disponiveis:
+2- Atualizar lista de pacotes disponiveis:
 
 sudo apt-get update
 
-Instalar o Java 8:
+3- Instalar o Java 8:
 
 sudo apt-get install oracle-java8-installer
 
-Entrar no diretório do usuário:
+4- Entrar no diretório do usuário:
 
 cd /home/usuario
 
-Baixar do repositório do Git o The One:
+5- Baixar do repositório do Git o The One:
 
 git clone https://github.com/akeranen/the-one.git
 
-entrar no diretório do The One:
+6- Entrar no diretório do The One:
 
 cd the-one
 
-Compilar o The One:
+7- Compilar o The One:
 
 sudo ./compile.sh
 
-Apagar arquivo padrão de configurações:
+8- Apagar arquivo padrão de configurações:
 
 sudo rm default_settings.txt
 
-Dentro do mesmo direto baixar repositório com configurações prontas:
+9- Dentro do mesmo direto baixar repositório com configurações prontas:
 
 git clone https://github.com/cairoapcampos/ExecTheOne.git
 
-Mover conteúdo para a pasta padrão e deletar pasta vazia:
+10- Mover conteúdo para a pasta padrão e deletar pasta vazia:
 
 sudo mv ExecTheOne/* /home/usuario/the-one
 sudo rm -R ExecTheOne
 
-Executar o script
+11- Executar o script
 
 sudo ./ExecTheOne.sh
