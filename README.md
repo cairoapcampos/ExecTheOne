@@ -1,5 +1,7 @@
 ::::::::::::::: Instruções ::::::::::::::::::
 
+Instalação feita no GNU/Linux Ubuntu 18.04
+
 1 - Adicione o repositório do Java 8:
 
 sudo add-apt-repository ppa:webupd8team/java
