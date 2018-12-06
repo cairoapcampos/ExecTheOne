@@ -55,7 +55,7 @@ sudo ./ExecTheOne.sh
 
 ::::::::::::::: Gerar arquivo CSV com os dados gerados ::::::::::::::::::
 
-1- Lê arquivos gerados em "the-one/reports", concatena dados e cria um arquivo CSV
+1- Lê arquivos gerados em "the-one/reports", concatena dados e cria um arquivo CSV:
 
 ./GenerSt.sh
 
