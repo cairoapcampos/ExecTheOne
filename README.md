@@ -1,10 +1,10 @@
-::::::::::::::: Instruções de Configuração ::::::::::::::::::
+## Instruções de Configuração
 
-Instalação feita no GNU/Linux Ubuntu 18.04
+#### Instalação feita no GNU/Linux Ubuntu 18.04
 
 1- Remover o OpenJDK caso já esteja instalado:
 
-sudo apt-get purge openjdk*
+`sudo apt-get purge openjdk*`
 
 2- Adicione o repositório do Java 8:
 
