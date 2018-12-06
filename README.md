@@ -32,11 +32,11 @@ cd the-one
 
 8- Compilar o The One:
 
-sudo ./compile.sh
+./compile.sh
 
 9- Apagar arquivo padrão de configurações:
 
-sudo rm default_settings.txt
+rm default_settings.txt
 
 10- Dentro do mesmo direto baixar repositório com configurações prontas:
 
@@ -44,13 +44,13 @@ git clone https://github.com/cairoapcampos/ExecTheOne.git
 
 11- Mover conteúdo para a pasta padrão e deletar pasta vazia:
 
-sudo mv ExecTheOne/* $HOME/the-one
+mv ExecTheOne/* $HOME/the-one
 
-sudo rm -R ExecTheOne
+rm -R ExecTheOne
 
 12- Executar o script
 
-sudo ./ExecTheOne.sh
+./ExecTheOne.sh
 
 
 ::::::::::::::: Gerar arquivo CSV com os dados gerados ::::::::::::::::::
