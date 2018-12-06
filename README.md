@@ -1,4 +1,4 @@
-::::::::::::::: Instruções ::::::::::::::::::
+::::::::::::::: Instruções de Configuração ::::::::::::::::::
 
 Instalação feita no GNU/Linux Ubuntu 18.04
 
@@ -51,3 +51,14 @@ sudo rm -R ExecTheOne
 12- Executar o script
 
 sudo ./ExecTheOne.sh
+
+
+::::::::::::::: Gerar arquivo CSV com os dados gerados ::::::::::::::::::
+
+1- Lê arquivos, concatena dados e cria um arquivo CSV
+
+./GenerSt.sh
+
+2- Abrir arquivo gerado:
+
+libreoffice --calc result.csv 
