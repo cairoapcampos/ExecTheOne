@@ -1,6 +1,6 @@
 ## Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
-#### Instalação feita no GNU/Linux Ubuntu 18.04
+#### Rodar o The ONE no GNU/Linux Ubuntu 18.04
 
 1- Remover o OpenJDK caso já esteja instalado:
 
