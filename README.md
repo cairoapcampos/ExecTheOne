@@ -53,12 +53,12 @@ rm -R ExecTheOne
 ./ExecTheOne.sh
 
 
-::::::::::::::: Gerar arquivo CSV com os dados gerados ::::::::::::::::::
+#### Gerar arquivo CSV com os dados gerados
 
 1- Lê arquivos gerados em "the-one/reports", concatena dados e cria um arquivo CSV:
 
-./GenerSt.sh
+`./GenerSt.sh`
 
 2- Abrir arquivo gerado:
 
-libreoffice --calc result.csv 
+`libreoffice --calc result.csv` 
