@@ -1,4 +1,4 @@
-## Instruções de Configuração [status](https://img.shields.io/readthedocs/pip.svg)
+## Instruções de Configuração ![status](https://img.shields.io/readthedocs/pip.svg)
 
 #### Instalação feita no GNU/Linux Ubuntu 18.04
 
