@@ -65,7 +65,7 @@ echo " "
 echo "Execução: $i"
 echo " "
 
-sudo ./one.sh -b 1 $FILECONF
+./one.sh -b 1 $FILECONF
 
 done < bufferSize.txt
 done < nrofHosts.txt
