@@ -1,5 +1,11 @@
 #!/bin/bash
 
+######################################################
+# Script de Execução do simulador The One            #
+# Versão: 1.0                                        #
+# Autor: Cairo Ap. Campos                            #
+######################################################
+
 clear
 
 # Variaveis
